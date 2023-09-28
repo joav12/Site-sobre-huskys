@@ -1,0 +1,99 @@
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #fff;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3% 4%;
+}
+
+.logo{
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background: url(../img/logo.jpg) center center/53px no-repeat;
+	font-size: 0px;
+}
+
+.btn-menu{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(148deg, #0f7bbf, #596c7a);
+}
+
+.menu{
+	display: none;
+	padding: 20px;
+	position: absolute;
+	background-color: #0f7bbfde;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu span{
+	font-size: 50px;
+	color: #fff;
+	display: flex;
+	justify-content: end;
+	cursor: pointer;
+}
+
+.menu ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.8rem;
+	margin-top: 60px;
+}
+
+.menu ul li{ margin-bottom: 50px; }
+
+.menu ul li a{
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all ease-in 0.2s;
+}
+
+.menu ul li a:hover{
+	color:#d1d1d1d1;
+}
+
+figure{
+	padding: 10px;
+	width: 100%;
+	background: url('/img/dog-00.jpg') 0px 0px/850px;
+	text-align: center;
+	color: #009cff;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+figure figcaption{ margin-bottom: 10px; }
+
+figure .buttons{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+figure .buttons button{ 
+	width: 100%;
+	margin-bottom: 10px; 
+}
