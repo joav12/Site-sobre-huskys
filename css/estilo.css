@@ -213,12 +213,40 @@ footer .social-icones{
 @media(min-width: 900px){
 	.btn-menu{ display: none; }
 
-	.menu-nav-lg{ display: block; }
-
-	figure{ 
-		background-repeat: no-repeat;
-    	background-position: center;
+	.menu-nav-lg{
+		display: block; 
+		border: 1px solid #000;
+		padding: 20px;
+		background-color: #bed9e8;
+		border-radius: 5px;
 	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	figure{
+		display: flex;
+		background-repeat: no-repeat;
+    	height: 180px;
+		margin: 0 auto;
+		width: 90%;
+		align-items: center;
+		justify-content: center;
+		background-size: 100% 400px;
+	}
+
+	figure p{
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	figure .buttons{ flex-direction: column; }
+
+	figure .buttons button{ width: 100%; }
 
 	.servicos img{
 		width: 459px;
