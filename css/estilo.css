@@ -224,8 +224,8 @@ footer .social-icones{
 	header {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		justify-content: left;
+		padding: 1% 4% 1% 4%;
 	}
 
 	figure{
@@ -235,8 +235,9 @@ footer .social-icones{
 		margin: 0 auto;
 		width: 90%;
 		align-items: center;
-		justify-content: center;
-		background-size: 100% 400px;
+		justify-content: space-between;
+		background-size: 100% 469px;
+    	height: 240px;
 	}
 
 	figure p{
@@ -244,7 +245,16 @@ footer .social-icones{
 		margin: 0 auto;
 	}
 
-	figure .buttons{ flex-direction: column; }
+	figure figcaption{
+		margin-bottom: 62px;
+		width: 350px;
+	}
+
+	figure .buttons{
+		flex-direction: column;
+		margin-top: 95px;
+		margin-right: 20px;
+	}
 
 	figure .buttons button{ width: 100%; }
 
