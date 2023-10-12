@@ -190,6 +190,43 @@ footer .social-icones{
 	align-items: center;
 }
 
+/* Contato */
+.form{
+	background-color: #95acb9;
+	font-size: 1.9rem;
+	padding: 15px 100px;
+}
+
+.form input, form textarea{
+	margin-bottom: 10px;
+}
+
+.form textarea{ width: 200px; }
+
+.idade_doquinho{
+	display: flex;
+	font-size: 1.0rem;
+	color: red;
+}
+
+.idade_doquinho input{
+	height: 20px;
+	width: 60px;
+	margin-right: 15px;
+}
+
+.butao_env_class{ display: flex; justify-content: center; }
+
+.form button{
+	margin-top: 10px;
+	padding: 10px;
+	border: none;
+	width: 50%;
+	background-color: #0f7bbf;
+	color: #fff;
+	border-radius: 10px;
+}
+
 @media(min-width: 568px){
 	.logo{
 		border-radius: 0;
