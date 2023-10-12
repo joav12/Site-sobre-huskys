@@ -260,17 +260,15 @@ footer .social-icones{
 
 	.servicos img{
 		width: 459px;
-    	height: 263px;
+		height: 168px;
 	}
 
 	main{
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
+		margin: 8px 62px;
+		gap: 10px;
 	}
 
-	.servicos{
-		margin: 17px;
-		width: 40%;
-	}
+	.servicos{ width: 40%; }
 }
